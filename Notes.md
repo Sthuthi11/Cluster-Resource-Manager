@@ -1,6 +1,4 @@
-**Cluster Resource Manager in C++ (Using WSL):**
-
-Steps:
+**Steps to Use:**
 
 1. Open Ubuntu (WSL Terminal)
 
