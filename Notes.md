@@ -19,7 +19,9 @@
 
 7. cd ClusterResourceManager
 8. ./build/node\_agent node1 127.0.0.1 8080 9001
+   
    ./build/node\_agent node2 127.0.0.1 8080 9002
+   
    ./build/node\_agent node3 127.0.0.1 8080 9003
    
    (Each node will also log to its own file)
