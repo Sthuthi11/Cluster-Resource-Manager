@@ -27,12 +27,15 @@
 9. ./build/task\_client 127.0.0.1 8080 10
 &nbsp;	This will submit 10 tasks. It will also schedule, and assign it to nodes.
 
-10. To Demonstrate Failover: 
+
+10. To Demonstrate Failover:
 &nbsp;	- Go to one of the Node Agent terminals (e.g., node2) and press Ctrl+C to terminate the process.
+
 &nbsp;	- In the Manager Terminal, after a few seconds the manager will detect that node2 is unresponsive and mark it as DOWN and will re-queue any tasks that were running on node2 and 	  attempt to re-assign them to other available nodes (node1, node3).
 
-11. Cleanup:
+12. Cleanup:
 &nbsp;	- Press Ctrl+C in all terminals.
+
 &nbsp;	- Run make clean to remove builds and logs
 
 
