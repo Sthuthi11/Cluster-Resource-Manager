@@ -1,0 +1,11 @@
+g++ -Wall -std=c++17 -pthread -Isrc -c src/manager/main_manager.cpp -o build/manager/main_manager.o
+g++ -Wall -std=c++17 -pthread -Isrc -c src/manager/ClusterManager.cpp -o build/manager/ClusterManager.o
+g++ -Wall -std=c++17 -pthread -Isrc -c src/manager/Logger.cpp -o build/manager/Logger.o
+g++ -Wall -std=c++17 -pthread -Isrc -c src/common/Utils.cpp -o build/common/Utils.o
+g++ -Wall -std=c++17 -pthread build/manager/main_manager.o build/manager/ClusterManager.o build/manager/Logger.o build/common/Utils.o -o build/cluster_manager -pthread
+g++ -Wall -std=c++17 -pthread -Isrc -c src/node/main_node.cpp -o build/node/main_node.o
+g++ -Wall -std=c++17 -pthread -Isrc -c src/node/NodeAgent.cpp -o build/node/NodeAgent.o
+g++ -Wall -std=c++17 -pthread build/node/main_node.o build/node/NodeAgent.o build/common/Utils.o build/manager/Logger.o -o build/node_agent -pthread
+g++ -Wall -std=c++17 -pthread -Isrc -c src/client/main_client.cpp -o build/client/main_client.o
+g++ -Wall -std=c++17 -pthread -Isrc -c src/client/Client.cpp -o build/client/Client.o
+g++ -Wall -std=c++17 -pthread build/client/main_client.o build/client/Client.o build/common/Utils.o -o build/task_client -pthread

@@ -1,0 +1,8 @@
+[2025-07-09 03:33:59] [INFO] NodeAgent node2 initialized.
+[2025-07-09 03:33:59] [INFO] Node node2: Listening for tasks on port 9002...
+[2025-07-09 03:33:59] [INFO] Node node2: Connected to manager at 127.0.0.1:8080
+[2025-07-09 03:33:59] [INFO] Node node2: Sent registration message to manager.
+[2025-07-09 03:47:36] [INFO] Node node2: Shutting down...
+[2025-07-09 03:47:36] [INFO] Node node2: Connected to manager at 127.0.0.1:8080
+[2025-07-09 03:47:37] [INFO] Node node2: New connection accepted from client.
+[2025-07-09 03:47:37] [INFO] Node node2: Received shutdown signal from manager.

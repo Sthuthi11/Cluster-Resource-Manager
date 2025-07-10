@@ -1,0 +1,8 @@
+[2025-07-09 03:31:23] [INFO] NodeAgent node1 initialized.
+[2025-07-09 03:31:23] [INFO] Node node1: Listening for tasks on port 9001...
+[2025-07-09 03:31:23] [INFO] Node node1: Connected to manager at 127.0.0.1:8080
+[2025-07-09 03:31:23] [INFO] Node node1: Sent registration message to manager.
+[2025-07-09 03:48:39] [INFO] Node node1: Shutting down...
+[2025-07-09 03:48:39] [INFO] Node node1: Connected to manager at 127.0.0.1:8080
+[2025-07-09 03:48:39] [INFO] Node node1: New connection accepted from client.
+[2025-07-09 03:48:39] [INFO] Node node1: Received shutdown signal from manager.

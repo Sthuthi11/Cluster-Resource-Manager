@@ -1,0 +1,118 @@
+[2025-07-09 03:29:50] [INFO] ClusterManager initialized on port 8080.
+[2025-07-09 03:29:50] [INFO] Cluster Manager running. Press Ctrl+C to stop.
+[2025-07-09 03:29:50] [INFO] Manager: Listening for connections on port 8080...
+[2025-07-09 03:31:23] [INFO] Node node1 registered (Port: 9001).
+[2025-07-09 03:31:23] [INFO] Manager: Handed off node node1 connection (socket: 5) to persistent handler.
+[2025-07-09 03:31:23] [INFO] Manager: Handling persistent connection for node node1 (socket: 5)
+[2025-07-09 03:33:59] [INFO] Node node2 registered (Port: 9002).
+[2025-07-09 03:33:59] [INFO] Manager: Handed off node node2 connection (socket: 6) to persistent handler.
+[2025-07-09 03:33:59] [INFO] Manager: Handling persistent connection for node node2 (socket: 6)
+[2025-07-09 03:34:31] [INFO] Node node3 registered (Port: 9003).
+[2025-07-09 03:34:31] [INFO] Manager: Handling persistent connection for node node3 (socket: 7)
+[2025-07-09 03:34:31] [INFO] Manager: Handed off node node3 connection (socket: 7) to persistent handler.
+[2025-07-09 03:41:16] [INFO] Task task-265f6b39 (Workload_1) submitted. Pending for scheduling.
+[2025-07-09 03:41:16] [INFO] Task task-61162809 (Workload_2) submitted. Pending for scheduling.
+[2025-07-09 03:41:16] [INFO] Task task-265f6b39 assigned to node node2
+[2025-07-09 03:41:17] [INFO] Task task-002664ef (Workload_3) submitted. Pending for scheduling.
+[2025-07-09 03:41:17] [INFO] Task task-8d84437b (Workload_4) submitted. Pending for scheduling.
+[2025-07-09 03:41:17] [INFO] Task task-61162809 assigned to node node2
+[2025-07-09 03:41:18] [INFO] Task task-3e46197c (Workload_5) submitted. Pending for scheduling.
+[2025-07-09 03:41:18] [INFO] Task task-abd56d1a (Workload_6) submitted. Pending for scheduling.
+[2025-07-09 03:41:18] [INFO] Task task-002664ef assigned to node node2
+[2025-07-09 03:41:19] [INFO] Task task-946ad09b (Workload_7) submitted. Pending for scheduling.
+[2025-07-09 03:41:19] [INFO] Task task-d1f52200 (Workload_8) submitted. Pending for scheduling.
+[2025-07-09 03:41:19] [INFO] Task task-8d84437b assigned to node node2
+[2025-07-09 03:41:20] [INFO] Task task-6529e2ed (Workload_9) submitted. Pending for scheduling.
+[2025-07-09 03:41:20] [INFO] Task task-67db8e7f (Workload_10) submitted. Pending for scheduling.
+[2025-07-09 03:41:20] [INFO] Task task-3e46197c assigned to node node2
+[2025-07-09 03:41:21] [INFO] Task task-abd56d1a assigned to node node2
+[2025-07-09 03:41:22] [INFO] Task task-946ad09b assigned to node node2
+[2025-07-09 03:41:23] [INFO] Task task-d1f52200 assigned to node node2
+[2025-07-09 03:41:24] [INFO] Task task-6529e2ed assigned to node node2
+[2025-07-09 03:41:25] [INFO] Task task-67db8e7f assigned to node node2
+[2025-07-09 03:47:37] [ERROR] Manager: Failed to receive message length from socket 6. Error: Connection reset by peer
+[2025-07-09 03:47:37] [WARNING] Manager: Node node2 disconnected (socket error/peer closed). Marking as DOWN.
+[2025-07-09 03:47:37] [WARNING] Initiating failover for tasks on failed node: node2
+[2025-07-09 03:47:37] [INFO] Re-queuing task task-002664ef from failed node node2
+[2025-07-09 03:47:37] [INFO] Re-queuing task task-265f6b39 from failed node node2
+[2025-07-09 03:47:37] [INFO] Re-queuing task task-3e46197c from failed node node2
+[2025-07-09 03:47:37] [INFO] Re-queuing task task-61162809 from failed node node2
+[2025-07-09 03:47:37] [INFO] Re-queuing task task-6529e2ed from failed node node2
+[2025-07-09 03:47:37] [INFO] Re-queuing task task-67db8e7f from failed node node2
+[2025-07-09 03:47:37] [INFO] Re-queuing task task-8d84437b from failed node node2
+[2025-07-09 03:47:37] [INFO] Re-queuing task task-946ad09b from failed node node2
+[2025-07-09 03:47:37] [INFO] Re-queuing task task-abd56d1a from failed node node2
+[2025-07-09 03:47:37] [INFO] Re-queuing task task-d1f52200 from failed node node2
+[2025-07-09 03:47:37] [INFO] Closed and removed active socket for failed node node2.
+[2025-07-09 03:47:37] [INFO] Manager: Closed persistent connection for node node2
+[2025-07-09 03:47:38] [INFO] Task task-002664ef assigned to node node1
+[2025-07-09 03:47:39] [INFO] Task task-265f6b39 assigned to node node1
+[2025-07-09 03:47:40] [INFO] Task task-3e46197c assigned to node node1
+[2025-07-09 03:47:41] [INFO] Task task-61162809 assigned to node node1
+[2025-07-09 03:47:42] [ERROR] Node node2 unresponsive for 6 seconds. Marking as DOWN.
+[2025-07-09 03:47:42] [WARNING] Initiating failover for tasks on failed node: node2
+[2025-07-09 03:47:42] [INFO] No running tasks to re-queue from failed node node2
+[2025-07-09 03:47:42] [INFO] Task task-6529e2ed assigned to node node1
+[2025-07-09 03:47:43] [INFO] Task task-67db8e7f assigned to node node1
+[2025-07-09 03:47:44] [INFO] Task task-8d84437b assigned to node node1
+[2025-07-09 03:47:45] [INFO] Task task-946ad09b assigned to node node1
+[2025-07-09 03:47:46] [INFO] Task task-abd56d1a assigned to node node1
+[2025-07-09 03:47:47] [INFO] Task task-d1f52200 assigned to node node1
+[2025-07-09 03:48:27] [WARNING] Manager: Node node3 disconnected (socket error/peer closed). Marking as DOWN.
+[2025-07-09 03:48:27] [WARNING] Initiating failover for tasks on failed node: node3
+[2025-07-09 03:48:27] [INFO] Closed and removed active socket for failed node node3.
+[2025-07-09 03:48:27] [INFO] No running tasks to re-queue from failed node node3
+[2025-07-09 03:48:27] [INFO] Manager: Closed persistent connection for node node3
+[2025-07-09 03:48:31] [ERROR] Node node3 unresponsive for 6 seconds. Marking as DOWN.
+[2025-07-09 03:48:31] [WARNING] Initiating failover for tasks on failed node: node3
+[2025-07-09 03:48:31] [INFO] No running tasks to re-queue from failed node node3
+[2025-07-09 03:48:39] [ERROR] Manager: Failed to receive message length from socket 5. Error: Connection reset by peer
+[2025-07-09 03:48:39] [WARNING] Manager: Node node1 disconnected (socket error/peer closed). Marking as DOWN.
+[2025-07-09 03:48:39] [WARNING] Initiating failover for tasks on failed node: node1
+[2025-07-09 03:48:39] [INFO] Re-queuing task task-002664ef from failed node node1
+[2025-07-09 03:48:39] [INFO] Re-queuing task task-265f6b39 from failed node node1
+[2025-07-09 03:48:39] [INFO] Re-queuing task task-3e46197c from failed node node1
+[2025-07-09 03:48:39] [INFO] Re-queuing task task-61162809 from failed node node1
+[2025-07-09 03:48:39] [INFO] Re-queuing task task-6529e2ed from failed node node1
+[2025-07-09 03:48:39] [INFO] Re-queuing task task-67db8e7f from failed node node1
+[2025-07-09 03:48:39] [INFO] Re-queuing task task-8d84437b from failed node node1
+[2025-07-09 03:48:39] [INFO] Re-queuing task task-946ad09b from failed node node1
+[2025-07-09 03:48:39] [INFO] Re-queuing task task-abd56d1a from failed node node1
+[2025-07-09 03:48:39] [INFO] Re-queuing task task-d1f52200 from failed node node1
+[2025-07-09 03:48:39] [INFO] Closed and removed active socket for failed node node1.
+[2025-07-09 03:48:39] [INFO] Manager: Closed persistent connection for node node1
+[2025-07-09 03:48:39] [WARNING] Manager: Persistent socket for node node1 not found or not active. Re-queuing task task-002664ef.
+[2025-07-09 03:48:40] [WARNING] Manager: Persistent socket for node node1 not found or not active. Re-queuing task task-265f6b39.
+[2025-07-09 03:48:41] [WARNING] Manager: Persistent socket for node node1 not found or not active. Re-queuing task task-3e46197c.
+[2025-07-09 03:48:42] [WARNING] Manager: No suitable node found for task task-61162809. Re-queuing.
+[2025-07-09 03:48:43] [ERROR] Node node1 unresponsive for 6 seconds. Marking as DOWN.
+[2025-07-09 03:48:43] [WARNING] Initiating failover for tasks on failed node: node1
+[2025-07-09 03:48:43] [INFO] No running tasks to re-queue from failed node node1
+[2025-07-09 03:48:43] [WARNING] Manager: No suitable node found for task task-6529e2ed. Re-queuing.
+[2025-07-09 03:48:44] [WARNING] Manager: No suitable node found for task task-67db8e7f. Re-queuing.
+[2025-07-09 03:48:45] [WARNING] Manager: No suitable node found for task task-8d84437b. Re-queuing.
+[2025-07-09 03:48:46] [WARNING] Manager: No suitable node found for task task-946ad09b. Re-queuing.
+[2025-07-09 03:48:47] [WARNING] Manager: No suitable node found for task task-abd56d1a. Re-queuing.
+[2025-07-09 03:48:48] [WARNING] Manager: No suitable node found for task task-d1f52200. Re-queuing.
+[2025-07-09 03:48:49] [WARNING] Manager: No suitable node found for task task-002664ef. Re-queuing.
+[2025-07-09 03:48:50] [WARNING] Manager: No suitable node found for task task-265f6b39. Re-queuing.
+[2025-07-09 03:48:51] [WARNING] Manager: No suitable node found for task task-3e46197c. Re-queuing.
+[2025-07-09 03:48:52] [WARNING] Manager: No suitable node found for task task-61162809. Re-queuing.
+[2025-07-09 03:48:53] [WARNING] Manager: No suitable node found for task task-6529e2ed. Re-queuing.
+[2025-07-09 03:48:54] [WARNING] Manager: No suitable node found for task task-67db8e7f. Re-queuing.
+[2025-07-09 03:48:55] [WARNING] Manager: No suitable node found for task task-8d84437b. Re-queuing.
+[2025-07-09 03:48:56] [WARNING] Manager: No suitable node found for task task-946ad09b. Re-queuing.
+[2025-07-09 03:48:57] [WARNING] Manager: No suitable node found for task task-abd56d1a. Re-queuing.
+[2025-07-09 03:48:58] [WARNING] Manager: No suitable node found for task task-d1f52200. Re-queuing.
+[2025-07-09 03:48:59] [WARNING] Manager: No suitable node found for task task-002664ef. Re-queuing.
+[2025-07-09 03:49:00] [WARNING] Manager: No suitable node found for task task-265f6b39. Re-queuing.
+[2025-07-09 03:49:01] [WARNING] Manager: No suitable node found for task task-3e46197c. Re-queuing.
+[2025-07-09 03:49:02] [WARNING] Manager: No suitable node found for task task-61162809. Re-queuing.
+[2025-07-09 03:49:03] [WARNING] Manager: No suitable node found for task task-6529e2ed. Re-queuing.
+[2025-07-09 03:49:04] [WARNING] Manager: No suitable node found for task task-67db8e7f. Re-queuing.
+[2025-07-09 03:49:05] [WARNING] Manager: No suitable node found for task task-8d84437b. Re-queuing.
+[2025-07-09 03:49:08] [WARNING] Manager: No suitable node found for task task-946ad09b. Re-queuing.
+[2025-07-09 03:49:09] [WARNING] Manager: No suitable node found for task task-abd56d1a. Re-queuing.
+[2025-07-09 03:49:10] [WARNING] Manager: No suitable node found for task task-d1f52200. Re-queuing.
+[2025-07-09 03:49:11] [WARNING] Manager: No suitable node found for task task-002664ef. Re-queuing.
+[2025-07-09 03:49:12] [INFO] Manager: Shutting down...

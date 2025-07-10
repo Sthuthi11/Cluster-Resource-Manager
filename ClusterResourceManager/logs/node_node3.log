@@ -1,0 +1,8 @@
+[2025-07-09 03:34:31] [INFO] NodeAgent node3 initialized.
+[2025-07-09 03:34:31] [INFO] Node node3: Listening for tasks on port 9003...
+[2025-07-09 03:34:31] [INFO] Node node3: Connected to manager at 127.0.0.1:8080
+[2025-07-09 03:34:31] [INFO] Node node3: Sent registration message to manager.
+[2025-07-09 03:48:25] [INFO] Node node3: Shutting down...
+[2025-07-09 03:48:25] [INFO] Node node3: Connected to manager at 127.0.0.1:8080
+[2025-07-09 03:48:27] [INFO] Node node3: New connection accepted from client.
+[2025-07-09 03:48:27] [INFO] Node node3: Received shutdown signal from manager.
