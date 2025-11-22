@@ -1,6 +1,4 @@
-# Cluster Resource Manager
-
- A system designed to efficiently manage and distribute computational tasks across a set of nodes in a cluster
+A system designed to efficiently manage and distribute computational tasks across a set of nodes in a cluster
 
 *Features:*
 
